@@ -1,0 +1,16 @@
+php think crud -t test -c mydir/test    //生成fa_test表的CRUD且控制器生成在二级目录下
+php think crud -t test -d 1    //删除fa_test表生成的CRUD
+php think menu -c mydir/test    //一键生成mydir/test控制器的权限菜单
+php think menu -c test -d 1    //删除test控制器生成的菜单
+
+
+后台基类控制器  application\common\controller\Backend.php
+前台基类控制器  application\common\controller\Frontend.php
+API接口基类控制器  application\common\controller\Api.php
+
+对应js文件  public\assets\js\backend\..
+后台控制器  application\admin\controller\..
+Api控制器  application\demo\controller\..
+
+FastAdmin的后台模块是禁用了路由功能的，因此后台的操作都是根据URL进行分段解析
+
