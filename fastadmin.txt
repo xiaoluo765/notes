@@ -14,3 +14,5 @@ Api控制器  application\demo\controller\..
 
 FastAdmin的后台模块是禁用了路由功能的，因此后台的操作都是根据URL进行分段解析
 
+更改注释，如type类型后，model，z-lang，对应的js文件都得看是否需要修改
+
